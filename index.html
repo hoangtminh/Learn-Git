@@ -4,5 +4,20 @@
     <meta http-equiv="Content-Type" content="charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Learning Git</title>
+    <script></script>
   </head>
+  <body id="root">
+    <button id="btn">Click me!</button>
+    <h2 id="count-text">Count: 0</h2>
+    <script>
+      let button = document.getElementById("btn");
+      let text = document.getElementById("count-text");
+      let count = 0;
+      const incCount = () => {
+        count += 1;
+        text.innerHTML = "Count: " + count;
+      };
+      button.addEventListener("click", incCount);
+    </script>
+  </body>
 </html>
