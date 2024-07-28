@@ -1,0 +1,28 @@
+body {
+  width: 100%;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  background-color: #46ff99;
+  padding: 10px 30px;
+  margin: 30px;
+  border-radius: 10px;
+  font-size: 2rem;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.7) 2px 2px 3px;
+}
+button:hover {
+  background-color: #3cdd84;
+  cursor: pointer;
+}
+button:active {
+  transform: translateY(5px);
+  transition-duration: 1s;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2.5rem;
+}
